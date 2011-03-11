@@ -1,4 +1,26 @@
-require 'spork'
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2011.03.10.22.54.16;	author bkm;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@require 'spork'
 
 Spork.prefork do
   # Loading more in this block will cause your tests to run faster. However, 
@@ -33,3 +55,4 @@ end
 
 Spork.each_run do
 end
+@
